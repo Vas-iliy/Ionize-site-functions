@@ -33,8 +33,6 @@ else {
     exit('Programmer LOX');
 }
 
-
-
 $html = template('base/v_main', [
     'pageTitle' => $pageTitle,
     'pageContent' => $pageContent,
